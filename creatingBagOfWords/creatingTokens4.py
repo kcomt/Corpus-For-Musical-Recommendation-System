@@ -17,7 +17,7 @@ rootEquivalence = "love"
 
 equivalence2 = ["billionare", "millionare", "pavements", "magazine", "maserati", "hustling", "foreign", "bitches", "streets", "picasso", "hustler", "versace", "clothes", "million",
                 "swagin", "stacks", "commas", "winner", "hustla", "money", "gucci", "shiny", "racks", "spend", "livin", "drive", "broke", "bens", "benz", "whip", "cars", "drip", "hoes", "swag",
-                "rari", "rich", "flex", "star", "car", "mil"]
+                "rari", "rich", "flex", "star", "car", "mil", "fall"]
 rootEquivalence2 = "success"
 
 equivalence3 = ["disappointing", "heartbreaker", "disappointed", "expectation", "heartbreak", "pretending", "solitude", "jealousy", "jealous", "heart", "alone",
@@ -29,7 +29,7 @@ equivalence4 = ["misunderstood", "bittersweet", "goosebumps", "addiction", "addi
 rootEquivalence4 = "feelings"
 
 equivalence5 = ["backwood", "partying", "partiyin", "alcohol", "tonight", "cocaine", "bottles", "dance", "booze", "drugs", "percs", "xanny", "joint", "club",
-                "xans", "boof", "weed", "kush", "lean", "boof", "high", "lsd", "gas", "og"]
+                "xans", "boof", "weed", "kush", "lean", "boof", "high", "lsd", "gas", "og", "night"]
 rootEquivalence5 = "party"
 
 equivalence6 = ["seduction", "slippery", "lollipop", "cocaine", "coochie", "sensual", "bedroom", "kissing", "naughty", "mouths", "slutty", "exotic", "tottie", "kinky",
@@ -38,11 +38,11 @@ equivalence6 = ["seduction", "slippery", "lollipop", "cocaine", "coochie", "sens
 rootEquivalence6 = "kinky"
 
 equivalence7 = ["hardest", "fistful", "villian", "niggas", "bodied", "bullet", "fight", "cruel", "bully", "ak-47", "smoke", "beam", "guns", "boys", "slap", "fire",
-                "lava", "heat", "hood", "gang", "uzi", "gun", "hit"]
+                "lava", "heat", "hood", "gang", "uzi", "gun", "hit", "die"]
 rootEquivalence7 = "danger"
 
 equivalence8 = ["compliment", "butterfly", "brighter", "kindness", "sweetest", "lullaby", "unicorn", "smiles", "joyful", "summer", "spring", "sweet", "happy",
-                "honey", "child", "joy"]
+                "honey", "child", "joy", "friend", "life", "hope", "life"]
 rootEquivalence8 = "sweet"
 
 tokens4 = tokens3[:]

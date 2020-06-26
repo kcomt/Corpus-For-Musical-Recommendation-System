@@ -122,23 +122,34 @@ def convertLyricsToTokens(lyrics):
     return tokens12
 
 
-dictionarySongs = {}
-cont = 0
-for song in songs:
-    dictAux = {}
-    tokensAux = convertLyricsToTokens(song[3])
-    for i in range(len(tokens5)):
-        times = 0
-        for j in range(len(tokensAux)):
-            if tokensAux[j] == tokens5[i]:
-                times += 1
-        dictAux.update({tokens5[i]: times})
-    auxDict = dict(title=song[1], artist=song[2], tokens=dictAux)
-
-    dictionarySongs.update({song[0]: auxDict})
-    print(cont)
-    cont += 1
-
-textFile = open("creatingBagOfWords/rawBag.txt", "w")
-n = textFile.write(str(dictionarySongs))
-textFile.close()
+with open("creatingBagOfWords/bagOfWords.csv", "w", newline="") as file:
+    writer = csv.writer(file)
+    writer.writerow(["Title", "Artist", "kinki", "love", "success", "hard", "need", "feel", "day", "new", "gone", "heart", "boy", "realli", "real", "think",
+                     "would", "thing", "one", "hold", "sdanger", "bitch", "leav", "danger", "around", "talk", "run", "keep", "nigga", "live", "sweet", "world", "alway", "successt", "eye",
+                     "parti", "wait", "bodi", "made", "noth", "show", "bad", "turn", "long", "home", "light", "hand", "work", "nigparti", "caheart", "walk", "Emotion"])
+    cont = 0
+    for song in songs:
+        dictAux = {}
+        tokensAux = convertLyricsToTokens(song[3])
+        for i in range(len(tokens5)):
+            times = 0
+            for j in range(len(tokensAux)):
+                if tokensAux[j] == tokens5[i]:
+                    times += 1
+            dictAux.update({tokens5[i]: times})
+        writer.writerow([song[1], song[2], dictAux.get("kinki"), dictAux.get("love"), dictAux.get("success"), dictAux.get("hard"), dictAux.get("need"), dictAux.get("feel"),
+                         dictAux.get("day"), dictAux.get("new"), dictAux.get("gone"), dictAux.get(
+            "heart"), dictAux.get("boy"), dictAux.get("realli"), dictAux.get("real"),
+            dictAux.get("think"), dictAux.get("would"), dictAux.get("thing"), dictAux.get(
+            "one"), dictAux.get("hold"), dictAux.get("sdanger"), dictAux.get("bitch"),
+            dictAux.get("leav"), dictAux.get("danger"), dictAux.get("around"), dictAux.get(
+            "talk"), dictAux.get("run"), dictAux.get("keep"), dictAux.get("nigga"),
+            dictAux.get("live"), dictAux.get("sweet"), dictAux.get("world"), dictAux.get(
+            "alway"), dictAux.get("successt"), dictAux.get("eye"), dictAux.get("parti"),
+            dictAux.get("wait"), dictAux.get("bodi"), dictAux.get("made"), dictAux.get(
+            "noth"), dictAux.get("show"), dictAux.get("bad"), dictAux.get("turn"),
+            dictAux.get("long"), dictAux.get("home"), dictAux.get("light"), dictAux.get(
+            "hand"), dictAux.get("work"), dictAux.get("nigparti"), dictAux.get("caheart"),
+            dictAux.get("walk"), "c"])
+        print(cont)
+        cont += 1

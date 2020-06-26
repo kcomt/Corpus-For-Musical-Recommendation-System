@@ -1,6 +1,3 @@
-['kinki', 'love', 'success', 'anoth', 'hard', 'need', 'feel', 'day', 'new', 'gone', 'heart', 'boy', 'realli', 'real', 'think', 'chang', 'would', 'break', 'crazi', 
-'done', 'thing', 'one', 'hold', 'sdanger', 'pull', 'might', 'bitch', 'leav', 'two', 'danger', 'without', 'around', 'talk', 'beat', 'lie', 'everybodi', 'run', 
-'keep', 'nigga', 'live', 'end', 'life', 'hope', 'world', 'alway', 'drop', 'name', 'watch', 'rock', 'place', 'successt', 'give', 'wish', 'eye', 'lovel', 'ssuccess', 
-'parti', 'wait', 'fall', 'believ', 'friend', 'tryna', 'someth', 'hear', 'die', 'bodi', 'made', 'noth', 'show', 'mean', 'song', 'bad', 'last', 'best', 'turn', 'miss', 
-'move', 'god', 'long', 'nobodi', 'night', 'home', 'bring', 'light', 'side', 'somebodi', 'drink', 'hand', 'sweet', 'dream', 'yo', 'much', 'uh', 'low', 'work', 'nigparti',
- 'fli', 'tri', 'littl', 'left', 'away', 'go', 'caheart', 'wrong', 'young', 'enough', 'roll', 'come', 'ride', 'walk', 'shake']
+['kinki', 'love', 'success', 'hard', 'need', 'feel', 'day', 'new', 'gone', 'heart', 'boy', 'realli', 'real', 'think', 'would', 'thing', 'one', 
+'hold', 'sdanger', 'bitch', 'leav', 'danger', 'around', 'talk', 'run', 'keep', 'nigga', 'live', 'sweet', 'world', 'alway', 'successt', 'eye', 
+'parti', 'wait', 'bodi', 'made', 'noth', 'show', 'bad', 'turn', 'long', 'home', 'light', 'hand', 'work', 'nigparti', 'caheart', 'walk']
