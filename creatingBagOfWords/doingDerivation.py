@@ -14,7 +14,7 @@ stemmer = SnowballStemmer('english')
 tokens5 = [stemmer.stem(t) for t in tokens4]
 
 ownStopWords = ["big", "mind", "suck", "crazy", "everyth", "gave",
-                "better", "cool", "play", "boo", "time", "dunk", "drench", "free", "la", "right", "ay", "stay", "stop"]
+                "better", "cool", "play", "boo", "time", "dunk", "drench", "free", "la", "right", "ay", "stay", "stop", "damn", "told", "face", "look", "man", "find"]
 
 cont = 0
 cleanTokens5 = tokens5[:]
@@ -27,7 +27,7 @@ for token in tokens5:
 mostFreqTokens = []
 frecuencias = nltk.FreqDist(cleanTokens5)
 for t, f in frecuencias.items():
-    if f > 500:
+    if f > 1000:
         mostFreqTokens.append(t)
 
 textFile = open("creatingBagOfWords/tokens5.txt", "w")
