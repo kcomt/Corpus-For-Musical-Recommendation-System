@@ -42,7 +42,8 @@ def convertLyricsToTokens(lyrics):
                     "ai", "want", "wan", "see", "get", "gets", "even", "oh", "ya", "yeah", "woah", "like", "go", "make", "take", "fuck", "hm", "mhm", "mmm", "let", "tell", "know", "ta", "back",
                     "never", "like", "hey", "ooh", "come", "say", "gon", "could", "wo", "said",
                     "ever", "every", "put", "out", "still", "good", "big", "mind", "suck", "crazy", "everyth", "gave",
-                    "better", "cool", "play", "boo", "time", "dunk", "drench", "free", "la", "right", "ay", "stay", "stop"]
+                    "better", "cool", "play", "boo", "time", "dunk", "drench", "free", "la", "right", "ay", "stay", "stop", "damn", "told",
+                    "face", "look", "man", "find", "place", "give", "fli", "tri", "littl", "left", "away"]
 
     equivalence = ["butterflies", "sweetheart", "feelings", "lovegame", "husband", "madonna",
                    "showty", "shorty", "fiance", "heart", "crush", "chick", "love", "baby", "girl", "bae", "we"]
